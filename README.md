@@ -37,61 +37,6 @@ Classification Report:
               precision    recall  f1-score   support
            0       0.87      0.83      0.85       123
            1       0.84      0.87      0.86       126
-
-Model saved to models/heart_model.pkl
-🔍 Sample Prediction
-For a sample patient input, the model predicts:
-
-vbnet
-Copy
-Edit
-🟢 The model predicts the person is not likely to have heart disease (72.35% confidence).
-or
-
-csharp
-Copy
-Edit
-🔴 The model predicts the person is at risk of heart disease (81.10% confidence).
-⚙️ Installation & Usage
-Clone the repository
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/heart-disease-prediction.git
-cd heart-disease-prediction
-Create virtual environment (optional but recommended)
-
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate   # On Mac/Linux
-venv\Scripts\activate      # On Windows
-Install dependencies
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the script
-
-bash
-Copy
-Edit
-python heart_disease_prediction.py
-📦 Requirements
-Create a requirements.txt file with:
-
-nginx
-Copy
-Edit
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-joblib
 📑 Dataset
 The dataset used is Heart Disease dataset, available publicly (e.g., Kaggle or UCI).
 It contains patient medical attributes and a target label HeartDisease (0 = No, 1 = Yes).
